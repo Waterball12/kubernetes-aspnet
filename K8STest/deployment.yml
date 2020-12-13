@@ -1,0 +1,30 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8stest-deployment
+spec:
+  selector:
+    matchLabels:
+      app: k8stest
+  template:
+    metadata:
+      labels:
+        app: k8stest
+    spec:
+      containers:
+      - name: k8stest
+        image: waterball/k8stest:latest # Change it based on the image name in the registry
+        imagePullPolicy: Never      # Remove this line when using an online registry
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: k8stest-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: k8stest
+  ports:
+  - port: 80
+    targetPort: 80
