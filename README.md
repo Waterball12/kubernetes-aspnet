@@ -71,6 +71,13 @@ Copy and paste the External IP and navigate to it
 http://{External_IP}/test
 ```
 
+### More
+
+You can also just use the following image
+
+```
+waterball/k8stest:latest
+```
 
 
 
