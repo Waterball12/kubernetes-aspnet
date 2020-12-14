@@ -19,6 +19,18 @@ In a new terminal open a new session and run the following command
 minikube tunnel
 ```
 
+Target the local docker registry for the current shell
+
+#### Windows
+```
+& minikube -p minikube docker-env | Invoke-Expression
+```
+
+#### Linux
+```
+eval $(minikube -p minikube docker-env)
+```
+
 ## Build
 
 To get started navigate to K8STest folder
