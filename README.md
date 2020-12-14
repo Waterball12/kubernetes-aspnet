@@ -55,7 +55,7 @@ kubectl create -f .\deployment.yml
 To check if the deployment has been successful check
 
 ```
-kubectl get development
+kubectl get deployment
 
 kubectl get pods
 ```
