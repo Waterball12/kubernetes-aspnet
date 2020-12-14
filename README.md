@@ -68,7 +68,7 @@ kubectl get service
 
 Copy and paste the External IP and navigate to it
 ```
-http://{External_IP}:80/test
+http://{External_IP}/test
 ```
 
 
