@@ -30,7 +30,7 @@ cd K8STest
 Build the docker image ( In case you are in localhost remember to remove `imagePullPolicy: Never` from the deployment.yml file
 
 ```
-docker build -f Dockerfile -t waterball/k8stest:latest ..
+docker build -f Dockerfile -t {USERNAME}/k8stest:latest ..
 ```
 
 If instead want to deploy to a Kubernetes cluster login in to your docker hub account or other provider
