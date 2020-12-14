@@ -1,11 +1,11 @@
 # Kubernetes testing with ASP.NET 5
 
-A testing repository to adventure on Kubernetes land using ASP.NET 5 and docker. I have included below the steps to deploy in a Kubernetes cluster in Digitalocean or locally.
+A testing repository to adventure on Kubernetes land using ASP.NET 5 and docker. I have included below the steps to deploy in a Kubernetes cluster or locally.
 
 ## Requirements
 
 - [Docker desktop](https://www.docker.com/products/docker-desktop) with kubernetes enabled
-- [Minikube](https://minikube.sigs.k8s.io/docs/start/)
+- [Minikube](https://minikube.sigs.k8s.io/docs/start/) for local deployment (Optional)
 
 ## Setup for localhost
 
